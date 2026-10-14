@@ -8,10 +8,9 @@ for (let x = 0; x < 5; x++) {
 }
 
 // Program 2
-for (let y = 0; y < 5; y++) {
+for (let x = 0; x < 5; x++) {
     let row = "";
-
-    for (let x = 0; x <= y; x++) {
+    for (let y = 0; y <= x; y++) {
         row += "* ";
     }
     console.log(row);

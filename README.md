@@ -55,15 +55,15 @@ flowchart LR
 ```mermaid
 flowchart LR
     A((start))
-    B[y = 0]
-    C{y < 5}
+    B[x = 0]
+    C{x < 5}
     D[row = #quot;#quot;]
-    E[x = 0]
-    F{x <= y}
+    E[y = 0]
+    F{y <= x}
     G[row += #quot;*#quot;]
-    H[x++]
+    H[y++]
     I[/row/]
-    J[y++]
+    J[x++]
     Z(((stop)))
 
     A --> B
