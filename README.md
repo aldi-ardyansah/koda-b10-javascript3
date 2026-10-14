@@ -13,7 +13,7 @@ flowchart LR
     F{x < 5}
     G[row += #quot;*#quot;]
     H[x++]
-    I[/output/]
+    I[/row/]
     J[y++]
     Z(((Stop)))
 
@@ -55,7 +55,7 @@ flowchart LR
     F{x <= y}
     G[row += #quot;*#quot;]
     H[x++]
-    I[/output/]
+    I[/row/]
     J[y++]
     Z(((Stop)))
 
