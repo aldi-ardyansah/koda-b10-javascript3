@@ -92,3 +92,16 @@ flowchart LR
 ```
 
 ### Flowchart
+
+## Program 4
+
+### Pola
+```
+* * * * *
+*       *
+*       *
+*       *
+* * * * *
+```
+
+### Flowchart
