@@ -92,6 +92,7 @@ flowchart LR
 ```
 
 ### Flowchart
+```mermaid
 flowchart LR
     A((start))
     B[x = 0]
@@ -126,6 +127,7 @@ flowchart LR
     M --> N
     N --> C
     C --false--> Z
+```
 
 ## Program 4
 
@@ -139,6 +141,7 @@ flowchart LR
 ```
 
 ### Flowchart
+```mermaid
 flowchart LR
     A((start))
     B[x = 0]
@@ -169,3 +172,4 @@ flowchart LR
     K --> L
     L --> C
     C --false--> Z
+```
