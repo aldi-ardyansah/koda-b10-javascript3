@@ -10,7 +10,7 @@ for (let y = 0; y < 5; y++) {
 // Program 2
 for (let y = 0; y < 5; y++) {
     let row = "";
-    for (let x = 0; x <= x; x++) {
+    for (let x = 0; x <= y; x++) {
         row += "* ";
     }
     console.log(row);
