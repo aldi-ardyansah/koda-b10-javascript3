@@ -20,7 +20,7 @@ flowchart LR
     D[row = #quot;#quot;]
     E[y = 0]
     F{y < 5}
-    G[row += #quot;*#quot;]
+    G[row += #quot;* #quot;]
     H[y++]
     I[/row/]
     J[x++]
@@ -60,7 +60,7 @@ flowchart LR
     D[row = #quot;#quot;]
     E[y = 0]
     F{y <= x}
-    G[row += #quot;*#quot;]
+    G[row += #quot;* #quot;]
     H[y++]
     I[/row/]
     J[x++]
