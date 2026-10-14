@@ -36,7 +36,7 @@ flowchart LR
 for (let y = 0; y < 5; y++) {
     let row = "";
     for (let x = 0; x < 5; x++) {
-        row = row + "*";
+        row = row + "* ";
     }
     console.log(row);
 }
@@ -52,7 +52,7 @@ flowchart LR
     C{y < 5}
     D[row = #quot; #quot;]
     E[x = 0]
-    F{x <= y}
+    F{x < 5}
     G[row += #quot;*#quot;]
     H[x++]
     I[/output/]
