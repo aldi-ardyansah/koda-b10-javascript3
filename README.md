@@ -31,17 +31,6 @@ flowchart LR
     J --> C
 ```
 
-### Kode
-```
-for (let y = 0; y < 5; y++) {
-    let row = "";
-    for (let x = 0; x < 5; x++) {
-        row = row + "* ";
-    }
-    console.log(row);
-}
-```
-
 ## Membuat Program Menggambar Bintang Semakin ke Bawah Semakin Bertambah
 
 ### Flowchart
@@ -71,15 +60,4 @@ flowchart LR
     C --False--> Z
     I --> J
     J --> C
-```
-
-### Kode
-```
-for (let y = 0; y < 5; y++) {
-    let row = "";
-    for (let x = 0; x <= y; x++) {
-        row = row + "* ";
-    }
-    console.log(row);
-}
 ```
