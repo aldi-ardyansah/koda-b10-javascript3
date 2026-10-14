@@ -1,4 +1,4 @@
-// Membuat Program Menggambar Bintang Lima Horizontal dan Lima Vertikal
+// Program 1
 for (let y = 0; y < 5; y++) {
     let row = "";
     for (let x = 0; x < 5; x++) {
@@ -7,7 +7,7 @@ for (let y = 0; y < 5; y++) {
     console.log(row);
 }
 
-// Membuat Program Menggambar Bintang Semakin ke Bawah Semakin Bertambah
+// Program 2
 for (let y = 0; y < 5; y++) {
     let row = "";
     for (let x = 0; x <= y; x++) {
