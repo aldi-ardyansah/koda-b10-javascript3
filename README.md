@@ -6,16 +6,16 @@
 ```mermaid
 flowchart LR
     A((Start))
-    B[/x = 0/]
+    B[x = 0]
     C{x < 5}
-    D[x++]
-    E[/bintang = ""/]
+    D[/row = ""/]
+    E[x++]
     F[y = 0]
     G{y < 5}
     H[y++]
-    I[bintang = bintang + #quot;*#quot;]
+    I[row = row + #quot;*#quot;]
     J{y < 5}
-    K[bintang = bintang + #quot; #quot;]
+    K[row = row + #quot; #quot;]
     Z(((Stop)))
 
     A --> B
@@ -31,7 +31,20 @@ flowchart LR
     K --> Z
 ```
 
+### Kode
+```
+for (let y = 0; y < 5; y++) {
+    let row = "";
+    for (let x = 0; x < 5; x++) {
+        row = row + "*";
+    }
+    console.log(row);
+}
+```
+
 ## Membuat Program Menggambar Bintang Semakin ke Bawah Semakin Bertambah
+
+### Flowchart
 ```mermaid
 flowchart LR
     A((Start))
@@ -58,4 +71,15 @@ flowchart LR
     C --False--> Z
     I --> J
     J --> C
+```
+
+### Kode
+```
+for (let y = 0; y < 5; y++) {
+    let row = "";
+    for (let x = 0; x <= 5; x++) {
+        row = row + "*";
+    }
+    console.log(row);
+}
 ```
