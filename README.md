@@ -52,7 +52,7 @@ flowchart LR
     C{y < 5}
     D[row = #quot; #quot;]
     E[x = 0]
-    F{x < 5}
+    F{x <= y}
     G[row += #quot;*#quot;]
     H[x++]
     I[/output/]
