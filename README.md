@@ -14,7 +14,7 @@
 ### Flowchart
 ```mermaid
 flowchart LR
-    A((Start))
+    A((start))
     B[x = 0]
     C{x < 5}
     D[row = #quot;#quot;]
@@ -24,7 +24,7 @@ flowchart LR
     H[y++]
     I[/row/]
     J[x++]
-    Z(((Stop)))
+    Z(((stop)))
 
     A --> B
     B --> C
@@ -54,7 +54,7 @@ flowchart LR
 ### Flowchart
 ```mermaid
 flowchart LR
-    A((Start))
+    A((start))
     B[y = 0]
     C{y < 5}
     D[row = #quot;#quot;]
@@ -64,7 +64,7 @@ flowchart LR
     H[x++]
     I[/row/]
     J[y++]
-    Z(((Stop)))
+    Z(((stop)))
 
     A --> B
     B --> C
