@@ -97,12 +97,12 @@ flowchart LR
     A((start))
     B[y = 0]
     C{y < 5}
-    D["row = ''"]
+    D["row = &quot;&quot;"]
     E[x = 0]
     F{x < 5}
     G{x < 4 - y}
-    H["row += ' '"]
-    I["row += '* '"]
+    H["row += &quot; &quot;"]
+    I["row += &quot;* &quot;"]
     J[x++]
     K[/row/]
     L[y++]
@@ -110,19 +110,19 @@ flowchart LR
 
     A --> B
     B --> C
-    C --true--> D
+    C -- true --> D
     D --> E
     E --> F
-    F --true--> G
-    G --true--> H
-    G --false--> I
+    F -- true --> G
+    G -- true --> H
+    G -- false --> I
     H --> J
     I --> J
     J --> F
-    F --false--> K
+    F -- false --> K
     K --> L
     L --> C
-    C --false--> Z
+    C -- false --> Z
 ```
 
 ## Program 4
