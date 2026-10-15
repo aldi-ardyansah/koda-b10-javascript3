@@ -30,10 +30,11 @@ for (let y = 0; y < 5; y++) {
 }
 
 // Program 4
-for (let x = 0; x < 5; x++) {
+
+for (let y = 0; y < 5; y++) {
     let row = "";
-    for (let y = 0; y < 5; y++) {
-        if (x === 0 || x === 4 || y === 0 || y === 4) {
+    for (let x = 0; x < 5; x++) {
+        if (y === 0 || y === 4 || x === 0 || x === 4) {
             row += "* ";
         } else {
             row += "  ";
