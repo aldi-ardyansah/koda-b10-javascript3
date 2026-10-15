@@ -146,7 +146,7 @@ flowchart LR
     D[row = &quot;&quot;]
     E[x = 0]
     F{x < 5}
-    G{y == 0 || y == 4 || x == 0 || x == 4}
+    G{y == 0 #124;#124; y == 4 #124;#124; x == 0 #124;#124; x == 4}
     H[row += &quot;* &quot;]
     I[row += &quot;  &quot;]
     J[x++]
