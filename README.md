@@ -143,12 +143,12 @@ flowchart LR
     A((start))
     B[y = 0]
     C{y < 5}
-    D[row = &quot;&quot;]
+    D[row = #quot;#quot;]
     E[x = 0]
     F{x < 5}
     G{y == 0 #124;#124; y == 4 #124;#124; x == 0 #124;#124; x == 4}
-    H[row += &quot;* &quot;]
-    I[row += &quot;  &quot;]
+    H[row += #quot;* #quot;]
+    I[row += #quot;  #quot;]
     J[x++]
     K[/row/]
     L[y++]
