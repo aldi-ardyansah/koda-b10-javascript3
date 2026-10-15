@@ -17,13 +17,14 @@ for (let y = 0; y < 5; y++) {
 }
 
 // Program 3
-for (let x = 0; x < 5; x++) {
+for (let y = 0; y < 5; y++) {
     let row = "";
-    for (let y = 0; y < 4 - x; y++) {
-        row += " ";
-    }
-    for (let z = 0; z <= x; z++) {
-        row += "* ";
+    for (let x = 0; x < 5; x++) {
+        if (x < 4 - y) {
+            row += " ";
+        } else {
+            row += "* ";
+        }
     }
     console.log(row);
 }
