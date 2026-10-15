@@ -95,19 +95,17 @@ flowchart LR
 ```mermaid
 flowchart LR
     A((start))
-    B[x = 0]
-    C{x < 5}
-    D[row = #quot;#quot;]
-    E[y = 0]
-    F{y < 4 - x}
-    G[row += #quot; #quot;]
-    H[y++]
-    I[z = 0]
-    J{z <= x}
-    K[row += #quot;* #quot;]
-    L[z++]
-    M[/row/]
-    N[x++]
+    B[y = 0]
+    C{y < 5}
+    D["row = ''"]
+    E[x = 0]
+    F{x < 5}
+    G{x < 4 - y}
+    H["row += ' '"]
+    I["row += '* '"]
+    J[x++]
+    K[/row/]
+    L[y++]
     Z(((stop)))
 
     A --> B
@@ -116,16 +114,14 @@ flowchart LR
     D --> E
     E --> F
     F --true--> G
-    G --> H
-    H --> F
-    F --false--> I
+    G --true--> H
+    G --false--> I
+    H --> J
     I --> J
-    J --true--> K
+    J --> F
+    F --false--> K
     K --> L
-    L --> J
-    J --false--> M
-    M --> N
-    N --> C
+    L --> C
     C --false--> Z
 ```
 
