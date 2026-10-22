@@ -40,6 +40,17 @@ flowchart LR
     C -- false --> Z
 ```
 
+### Kode
+```javascript
+for (let y = 0; y < 5; y++) {
+    let row = "";
+    for (let x = 0; x < 5; x++) {
+        row += "* ";
+    }
+    console.log(row);
+}
+```
+
 ## Program 2
 
 ### Pola
@@ -78,6 +89,17 @@ flowchart LR
     I --> J
     J --> C
     C -- false --> Z
+```
+
+### Kode
+```javascript
+for (let y = 0; y < 5; y++) {
+    let row = "";
+    for (let x = 0; x <= y; x++) {
+        row += "* ";
+    }
+    console.log(row);
+}
 ```
 
 ## Program 3
@@ -125,6 +147,21 @@ flowchart LR
     C -- false --> Z
 ```
 
+### Kode
+```javascript
+for (let y = 0; y < 5; y++) {
+    let row = "";
+    for (let x = 0; x < 5; x++) {
+        if (x < 4 - y) {
+            row += " ";
+        } else {
+            row += "* ";
+        }
+    }
+    console.log(row);
+}
+```
+
 ## Program 4
 
 ### Pola
@@ -169,4 +206,19 @@ flowchart LR
     K --> L
     L --> C
     C -- false --> Z
+```
+
+### Kode
+```javascript
+for (let y = 0; y < 5; y++) {
+    let row = "";
+    for (let x = 0; x < 5; x++) {
+        if (y === 0 || y === 4 || x === 0 || x === 4) {
+            row += "* ";
+        } else {
+            row += "  ";
+        }
+    }
+    console.log(row);
+}
 ```
