@@ -7,6 +7,8 @@ for (let y = 0; y < 5; y++) {
     console.log(row);
 }
 
+console.log("");
+
 // Program 2
 for (let y = 0; y < 5; y++) {
     let row = "";
@@ -15,6 +17,8 @@ for (let y = 0; y < 5; y++) {
     }
     console.log(row);
 }
+
+console.log("");
 
 // Program 3
 for (let y = 0; y < 5; y++) {
@@ -28,6 +32,8 @@ for (let y = 0; y < 5; y++) {
     }
     console.log(row);
 }
+
+console.log("");
 
 // Program 4
 for (let y = 0; y < 5; y++) {
